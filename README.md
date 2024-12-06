@@ -18,7 +18,7 @@ __N.B.__ In hindsight, this is a pretty expensive solution to buildng an experim
 ## **Requirements and Usage**
 
 1. For LabView VIs, LabView 2012 or newer is required
-2. For Matlab functions, _TDMS Reader_ library from Matlab File Exchange ([link here](https://www.mathworks.com/matlabcentral/fileexchange/30023-tdms-reader)) needs to be downloaded and inserted in the Matlab's path; R2010a release or newer is required
+2. For Matlab functions, _TDMS Reader_ library from Matlab File Exchange ([link](https://www.mathworks.com/matlabcentral/fileexchange/30023-tdms-reader)) needs to be downloaded and inserted in the Matlab's path; R2010a release or newer is required
 3. Modify LabView VIs and the Matlab function to your needs
 4. Use the project as desired
 
@@ -32,6 +32,8 @@ If you'd like to contribute to this project, feel free to email me (mpetreikis@t
 
 ## **Authors and Acknowledgment**
 
-The author of this project (**[Matas Petreikis](https://github.com/mpetreikis)**) would like to acknowledge these contributions:.
+The author of this project (**[Matas Petreikis](https://github.com/mpetreikis)**) would like to acknowledge these contributions:
+- User _Chris_G._ for their example VI, on which both of my VIs were based **heavily** ([link](https://forums.ni.com/t5/Example-Code/Synchronizing-Analog-Output-and-Digital-Output-Signals-Using/ta-p/3536335))
+- _Jim Hokanson_ for their _TDMS Reader_ library, which were crucial for my own Matlab functions and which saved me loads of time when dealing with .tdms files
 
 
